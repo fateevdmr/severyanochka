@@ -1,0 +1,121 @@
+
+
+.addArticle {
+    text-align: center;
+    font-size: 36px;
+    color: red;
+  }
+  
+  .form {
+    width: 530px;
+    height: 980px;
+    margin: 40px auto 30px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+  
+  .form input {
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 500;
+    margin: 10px;
+  
+  }
+  
+  .title {
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 21px;
+    display: flex;
+  }
+  
+  .fullText {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 21px;
+    display: flex;
+    resize: none;
+  }
+  
+  .img {
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 21px;
+    display: flex;
+  }
+  
+  .btn {
+    padding: 6px 40px;
+    border: 1px solid #24a243;
+    border-radius: 20px;
+    background-color: #24a243;
+    font-size: 21px;
+    margin: 25px;
+  }
+  
+  .btn:hover {
+    background-color: #0cef45;
+  }
+  
+  .article {
+    display: flex;
+    margin: 15px;
+  }
+
+ 
+
+  @media (min-width: 320px) and (max-width: 630px) {
+    .form {
+      width: 300px;
+      height: 900px;
+      margin: 40px auto 30px;
+      border: 1px solid transparent;
+      margin-bottom: 10px;
+      text-align: center;
+      background-color:  rgb(255, 255, 255);
+      border-radius: 20px;
+    }
+    .title {
+      width: 280px;
+      height: 50px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+      display: flex;
+    }
+    
+    .fullText {
+      width: 280px;
+      height: 350px;
+      margin: 10px;
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 14px;
+      display: flex;
+      resize: none;
+    }
+    
+    .img {
+      width: 280px;
+      height: 50px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+      display: flex;
+    }
+  }
