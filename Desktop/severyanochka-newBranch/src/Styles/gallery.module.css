@@ -1,0 +1,21 @@
+.galleryWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #FCD5BA; 
+}
+
+.carouselContainer {
+    width: 1208px;
+    margin: 0 auto;
+}
+
+.carouselItem {
+    display: block;
+    margin: 0 10px; 
+    width: 590px; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
