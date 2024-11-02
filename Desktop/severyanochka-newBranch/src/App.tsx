@@ -7,7 +7,7 @@ import Header from './pages/header';
 import Footer from './pages/footer';
 import Home from '../src/pages/home'
 import About from './components/about';
-import Contacts from './components/contscts';
+import Contacts from './components/contakts';
 import Vacancies from './components/vacancies';
 
 

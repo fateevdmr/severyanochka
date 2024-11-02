@@ -1,3 +1,8 @@
+.mainContainer {
+    background-color: #FCD5BACC;
+    border: 4px solid red;
+}
+
 .promoBanner {
     width: 1208px;
     height: 60px;
