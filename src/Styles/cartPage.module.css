@@ -1,0 +1,48 @@
+.cartPage {
+    width: 1208px;
+    margin: 0 auto;
+  }
+  
+  .cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    border: 5px solid red;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .itemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .itemDetails {
+    flex: 1;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantityControls button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: gray;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .quantityControls span {
+    font-size: 16px;
+  }
+  
