@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                           // Уровень JavaScript, на который будет компилироваться TypeScript
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],     // Библиотеки для работы с браузером и современным JS
+    "allowJs": true,                              // Разрешить использование JavaScript-файлов
+    "skipLibCheck": true,                         // Пропуск проверки типов в файлах библиотеки
+    "esModuleInterop": true,                      // Упрощение работы с модулями CommonJS
+    "allowSyntheticDefaultImports": true,         // Поддержка синтетического импорта
+    "strict": true,                               // Включить строгую проверку TypeScript
+    "forceConsistentCasingInFileNames": true,     // Обеспечивает единообразие в использовании регистров символов
+    "module": "ESNext",                           // Тип модуля для JavaScript
+    "moduleResolution": "Node",                  // Способ поиска модулей
+    "resolveJsonModule": true,                    // Позволяет импортировать JSON-файлы
+    "isolatedModules": true,                      // Обеспечивает совместимость с инструментами (например, Babel)
+    "jsx": "react-jsx",                           // Поддержка JSX (React)
+    "baseUrl": "./src",                           // Устанавливает базовый каталог для путей
+    "paths": {                                    // Настройка алиасов для путей
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@assets/*": ["assets/*"]
+    }
+  },
+  "include": ["src"],                             // Указывает папки и файлы, которые будут обрабатываться TypeScript
+  "exclude": ["node_modules", "build", "dist"]   // Исключает определённые папки из обработки
+}
+

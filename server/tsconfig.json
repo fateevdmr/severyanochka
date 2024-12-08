@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Компиляция в ES6
+    "module": "CommonJS",                     // Использование CommonJS для модулей
+    "rootDir": "./",                          // Корневая папка
+    "outDir": "./dist",                       // Папка для скомпилированного кода
+    "strict": true,                           // Включение строгого режима
+    "esModuleInterop": true,                  // Позволяет использовать модули CommonJS
+    "skipLibCheck": true                      // Пропуск проверки типов для node_modules
+  },
+  "include": ["server.ts", "types.ts"],       // Какие файлы включить в компиляцию
+  "exclude": ["node_modules", "dist"]         // Какие папки исключить
+  
+}
